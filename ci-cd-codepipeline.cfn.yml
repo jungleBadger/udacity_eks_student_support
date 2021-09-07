@@ -22,7 +22,7 @@ Parameters:
 
   GitBranch:
     Type: String
-    Default: master
+    Default: mafusi_support
     Description: GitHub git repository branch - change triggers a new build
     MinLength: 1
     MaxLength: 100
@@ -38,7 +38,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: Mokati94
+    Default: jungleBadger
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
